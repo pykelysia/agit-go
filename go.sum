@@ -1,0 +1,4 @@
+github.com/pykelysia/pyketools v0.0.0-20251102021803-62fee5b8ba46 h1:nbqJRK9cRKRw6dNFj7+hs1tl/5csrOhSg8K+D9GtpqA=
+github.com/pykelysia/pyketools v0.0.0-20251102021803-62fee5b8ba46/go.mod h1:HUlmTTEqEEyuvFAO9rFSAgjSCfklo6XShAG2Lij3lQ4=
+golang.org/x/text v0.31.0 h1:aC8ghyu4JhP8VojJ2lEHBnochRno1sgL6nEi9WGFGMM=
+golang.org/x/text v0.31.0/go.mod h1:tKRAlv61yKIjGGHX/4tP1LTbc13YSec1pxVEWXzfoeM=
