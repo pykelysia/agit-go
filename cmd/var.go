@@ -6,7 +6,7 @@ const (
 )
 
 const (
-	normalModeCommandLine string = "git push"
+	normalModeCommandLine string = "push"
 
 	successOutput string = "Everything up-to-date"
 

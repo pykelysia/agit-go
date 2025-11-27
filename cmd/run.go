@@ -9,13 +9,13 @@ import (
 )
 
 func (cmd *Command) Run() (bool, error) {
-	cmdline := ""
+	cmdLine := ""
 	switch cmd.modeName {
 	case normalMode, fastMode:
-		cmdline = normalModeCommandLine
+		cmdLine = normalModeCommandLine
 	}
 
-	ps := exec.Command("PowerShell", "-Command", cmdline)
+	ps := exec.Command("git", cmdLine)
 	ps.Dir = cmd.path
 
 	output, err := ps.CombinedOutput()
