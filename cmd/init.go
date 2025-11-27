@@ -19,7 +19,10 @@ func (cmd *Command) init() {
 	cmd.args = make(map[string]string)
 	for i := 1; i < len(os.Args); i++ {
 		if os.Args[i][0] == '-' {
-			if os.Args[i+1][0] == '-' {
+			if i+1 >= len(os.Args) {
+				cmd.args[os.Args[i]] = ""
+			}
+			if os.Args[i][0] == '-' {
 				cmd.args[os.Args[i]] = ""
 			} else {
 				cmd.args[os.Args[i]] = os.Args[i+1]
